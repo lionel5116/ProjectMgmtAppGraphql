@@ -5,6 +5,7 @@ const schema = require('./schema/schema');
 const port = process.env.PORT || 5800;
 
 //https://www.youtube.com/watch?v=BcLNfwF04Kw
+//http://localhost:5800/graphql
 
 const app = express();
 
