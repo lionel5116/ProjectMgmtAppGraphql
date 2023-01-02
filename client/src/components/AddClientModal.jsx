@@ -67,7 +67,7 @@ export default function AddClientModal() {
                                     <label className='form-label'>Email</label>
                                     <input type="text" 
                                            className="form-control" 
-                                           id="name" value={email} 
+                                           id="email" value={email} 
                                            onChange ={(e) => setEmail(e.target.value) }/>
                                 </div>
 
@@ -75,7 +75,7 @@ export default function AddClientModal() {
                                     <label className='form-label'>Phone</label>
                                     <input type="text" 
                                            className="form-control" 
-                                           id="name" value={phone} 
+                                           id="phone" value={phone} 
                                            onChange ={(e) => setPhone(e.target.value) }/>
                                 </div>
                                 <button 

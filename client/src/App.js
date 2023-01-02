@@ -5,6 +5,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 //import Projects from "./components/Projects";
 //import AddClientModal from "./components/AddClientModal";
 import Home from './pages/Home';
+import Project from './pages/Project';
 import NotFound from './pages/NotFound';
 
 //the code below is for handling warnings when using cache to refresh
@@ -47,7 +48,7 @@ function App() {
           <div className="container">
            <Routes>
              <Route path='/' element={<Home />}></Route>
-
+             <Route path='/project/:id' element={<Project />}></Route>
              <Route path='*' element={<NotFound />}></Route>
            </Routes>
           </div>
